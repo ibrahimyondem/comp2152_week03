@@ -80,7 +80,7 @@ else:
         print("The monster has reduced your health to: " + str(healthPoints))
 
 #Weapons
-weapons = ["Fist, Knife, Club, Gun, Bomb, Nuclear bomb"]
+weapons = ["Fist", "Knife", "Club", "Gun", "Bomb", "Nuclear bomb"]
 weaponRoll = random.choice(diceOptions)
 input("Roll the dice for your weapon options (Press enter)")
 print("Your rolled " + str(weaponRoll) + " and your weapon is: " + weapons[weaponRoll -1])
